@@ -35,21 +35,28 @@ The project is structured into two main folders:
 
 ## Installation and Setup
 
+**Prerequisites**
+VisualStudio.
+Python and pip installed.
+Node.js and npm installed.
+MySQL database server installed (e.g., XAMPP).
+
 1. **Database Setup**:
-   - Download the Xammp for MySQL database, and start both apach and mysql services.
-   - Navigate to the "backend" folder.
-   - In terminal install virtual environment using "pip install virtualenv".
+   - Open XAMPP server, and start both apach and mysql services.
+   - Open VisualStudio and clone the GitHub repository in the terminal using "git clone https://github.com/techwithradhika/React_Registration.git"
+   - Navigate to the backend folder using "cd backend".
+   - Install virtual environment using "pip install virtualenv".
    - Create new virtual environment using "python -m virtualenv venv".
    - Activate the VENV using ".\venv\Scripts\activate".
    - Install dependencies using "pip install -r requirements.txt".
    - Run the sql_db python file using "python sql_db.py", which will create the Registration Database and Register table in MySQL.
 
 2. **Backend Setup**:
-   - Navigate to the "backend" folder. We have already installed all the dependencies for the backed using "pip install -r requirements.txt".
-   - Start the FastAPI server in terminal using "uvicorn api:app --reload".
+   - We have already installed all the dependencies for the backed using "pip install -r requirements.txt".
+   - Start the FastAPI server in terminal using "uvicorn api:app --reload" (Make sure your are in backend directiory).
 
-3. **Frontend Setup**:3
-   - Navigate to the "frontend" folder.
+3. **Frontend Setup**:
+   - In a new terminal Navigate to the "frontend" folder.
    - Install dependencies using "npm install".
    - Start the React development server using "npm start", which will open the react frontend application in your browse.
    - now you perform all the usage mentioned below .
