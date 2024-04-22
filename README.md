@@ -36,10 +36,10 @@ The project is structured into two main folders:
 ## Installation and Setup
 
 **Prerequisites**
-VisualStudio.
-Python and pip installed.
-Node.js and npm installed.
-MySQL database server installed (e.g., XAMPP).
+ - VisualStudio.
+ - Python and pip installed.
+ - Node.js and npm installed.
+ - MySQL database server installed (e.g., XAMPP).
 
 1. **Database Setup**:
    - Open XAMPP server, and start both apach and mysql services.
