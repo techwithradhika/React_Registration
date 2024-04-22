@@ -5,7 +5,7 @@ This is a simple registration application built using FastAPI for the backend, R
 ## Features
 
 - Allows users to register with their name, email, and date of birth.
-- Validates the date of birth format and emal on the frontend and backend.
+- Validates the date of birth format and email on the frontend and backend.
 - Provides API endpoints for performing CRUD operations on user registration data.
 
 ## Technologies Used
@@ -36,14 +36,14 @@ The project is structured into two main folders:
 ## Installation and Setup
 
 **Prerequisites**
- - VisualStudio.
+ - Visual Studio Code.
  - Python and pip installed.
  - Node.js and npm installed.
  - MySQL database server installed (e.g., XAMPP).
 
 1. **Database Setup**:
    - Open XAMPP server, and start both apach and mysql services.
-   - Open VisualStudio and clone the GitHub repository in the terminal using "git clone https://github.com/techwithradhika/React_Registration.git"
+   - Open Visual Studio Code and clone the GitHub repository in the terminal using "git clone https://github.com/techwithradhika/React_Registration.git"
    - Navigate to the backend folder using "cd backend".
    - Install virtual environment using "pip install virtualenv".
    - Create new virtual environment using "python -m virtualenv venv".
@@ -58,12 +58,12 @@ The project is structured into two main folders:
 3. **Frontend Setup**:
    - In a new terminal Navigate to the "frontend" folder.
    - Install dependencies using "npm install".
-   - Start the React development server using "npm start", which will open the react frontend application in your browse.
-   - now you perform all the usage mentioned below .
+   - Start the React development server using "npm start", which will open the react frontend application in your browser.
+   - now you can perform all the usage mentioned below.
 
 ## Usage
 
 1. Access the frontend application by opening the URL displayed after starting the React development server.
 2. Fill out the registration form with valid information.
-3. Submit the form to register a new user.
+3. Submit the registration form to register a new user.
 4. View, update, or delete registered users data at API endpoints in "http://127.0.0.1:8000/docs" after starting uvicorn server.
